@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252325;
+}
+
+.App {
+  text-align: center;
+}
+
+.search-box {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+}
+
+/* search box */
+.search-box input {
+  margin-top: 50px;
+  padding: 8px;
+  width: 85%;
+}
+
+.search-box button {
+  color: white;
+  background-color: #AC0000;
+  border: none;
+  padding: 10px;
+}
+
+/* result */
+.weather-wrapper {
+  background-color: white;
+  width: 35%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.icon {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* infor 1 */
+.infor-1 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.temperature,
+.city,
+.date {
+  width: calc(100%/3);
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  height: 100px;
+}
+
+.date,
+.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.temperature {
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.date {
+  background-color: #AC0000;
+  font-size: 20px;
+}
+
+
+/* CTG */
+/* infor 2 */
+.infor-2 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.infor-2 ion-icon {
+  color: red;
+  font-weight: bold;
+}
+
+.sunset,
+.humidity,
+.pressure,
+.speed {
+  width: calc(100%/4);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.Calculator {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.view-result {
+  text-align: right;
+  width: 98.5%;
+}
+
+.Cal-wrapper {
+  width: 40%;
+  margin: auto;
+}

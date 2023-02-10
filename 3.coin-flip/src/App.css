@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.coin,
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  cursor: pointer;
+}

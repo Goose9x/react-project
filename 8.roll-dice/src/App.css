@@ -1,0 +1,80 @@
+.dicewrapper {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-size: 200px;
+}
+
+.dice {
+  margin: 10px;
+  color: rgb(17, 9, 87);
+}
+
+.color {
+  margin: auto;
+  display: block;
+  padding: 10px 70px 10px 70px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(96, 82, 221);
+}
+
+.result {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: auto;
+  display: block;
+  padding: 10px 70px 10px 70px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(17, 9, 87);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(96, 82, 221);
+}
+
+/* DIce roling */
+.shaking {
+  animation-name: wobble;
+  animation-duration: 1s;
+}
+
+@keyframes wobble {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

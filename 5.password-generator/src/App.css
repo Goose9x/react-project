@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #393996;
+}
+
+.form-wrapper {
+  width: 25%;
+  margin: auto;
+  color: white;
+  border: 0.5px solid rgba(236, 231, 231, 0.2);
+  background-color: #221E5B;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 23px 5px rgba(126, 123, 123, 0.75);
+  -webkit-box-shadow: 0px 2px 23px 5px rgba(51, 46, 46, 0.75);
+  -moz-box-shadow: 0px 2px 23px 5px rgba(41, 30, 30, 0.75);
+}
+
+.form-wrapper .title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: red;
+  background: -webkit-linear-gradient(left, rgb(255, 0, 0), rgb(255, 0, 0), yellow, cyan, blue, violet);
+  background: -o-linear-gradient(right, rgb(255, 0, 13), rgb(255, 0, 0), yellow, cyan, blue, violet);
+  background: -moz-linear-gradient(right, rgb(255, 0, 0), rgb(255, 0, 0), yellow, cyan, blue, violet);
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 0), yellow, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-wrapper .result {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.form-wrapper .options .lengthInput {
+  width: 40px;
+}
+
+.form-wrapper .options {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-wrapper .form {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper .form .create-btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #393997;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+}
+
+.form-wrapper .result {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-wrapper .copy-btn {
+  font-weight: bold;
+  background-color: #131136;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-left: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-wrapper .copy-btn:hover {
+  background-color: rgb(175, 92, 92);
+}
+
+.form-wrapper .create-btn:hover {
+  background-color: rgb(175, 92, 92);
+}
+
+.form-wrapper input[type="text"]:disabled {
+  background: #131136;
+  color: white;
+}

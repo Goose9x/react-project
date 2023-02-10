@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(223, 120, 102); */
+  font-family: 'Nerko One', cursive;
+}
+
+.body {
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.quote-warrper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  top: 40%;
+  left: 50%;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 20px 50px;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 17px 3px rgba(0, 0, 0, 0.75);
+}
+
+.Card p {
+  font-size: 30px;
+}
+
+.Card .author {
+  /* float: right; */
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Card button {
+  width: 30%;
+  margin: auto;
+  padding: 5px;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
